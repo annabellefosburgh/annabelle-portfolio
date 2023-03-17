@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* Code blocking out and styling the heading */
 header {
     height: 300px;
     padding: 20px;
@@ -11,23 +12,6 @@ header {
     color: #e7e6d6;
     text-align: end;
     background-color: #4b633f;
-}
-
-.headings {
-    color: #4b633f;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-
-.prework-study-guide,
-.placeholder {
-    display: inline-flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    height: 350px;
-    width: 375px;
-    border: solid;
-    padding: 3px;
 }
 
 .item1,
@@ -41,6 +25,32 @@ header {
     background-color:#799276;
 }
 
+.headings {
+    color: #4b633f;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* Styling images*/
+.prework-study-guide {
+    display: inline-flex;
+    justify-content: center;
+    height: 500px;
+    width: 600px;
+    border: solid 2px;
+    padding: 3px;
+}
+
+.placeholder {
+    display: inline-flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 350px;
+    border: solid 2px;
+    padding: 3px;
+}
+
+/*Sections within the body*/
 body {
     background-color:#e7e6d6;
     padding: 0px;
@@ -64,7 +74,7 @@ body {
     margin: 20px;
     padding: 20px;
     border-radius:0%;
-    height: 900px;
+    height: 1000px;
     background-color: #e7e6d6;
     color: #4b633f;
     text-align: center;
@@ -72,18 +82,7 @@ body {
     font-size: 20px;
 }
 
-#contact-me {
-    margin: 20px;
-    padding: 20px;
-    border-radius:0%;
-    height: 200px;
-    background-color:#4b633f;
-    color: #e7e6d6;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 20px;
-}
-
+/*Buttons in the last section*/
 .phone,
 .email,
 .linkedin {
@@ -95,4 +94,33 @@ body {
     padding: 3px;
 }
 
+/*Footing/contact information section.*/
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-radius:0%;
+    height: 200px;
+    background-color:#4b633f;
+    color: #e7e6d6;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+}
 
+/*Media queries to adjust to screen sizes*/
+@media screen and (max-width: 768px) {
+    header,
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+   header,
+   body {
+      display: block;
+      flex-direction: column;
+    }
+}
