@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 300px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e7e6d6;
+    text-align: end;
+    background-color: #4b633f;
+}
+
+.headings {
+    color: #4b633f;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.prework-study-guide,
+.placeholder {
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 375px;
+    border: solid;
+    padding: 3px;
+}
+
+.item1,
+.item2,
+.item3 {
+    display: inline-flex;
+    justify-content: flex-end;
+    border-radius: 2%;
+    padding: 10px;
+    margin: 0px;
+    background-color:#799276;
+}
+
+body {
+    background-color:#e7e6d6;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#about-me {
+    margin: 20px;
+    padding: 20px;
+    border-radius:0%;
+    height: 200px;
+    background-color:#e7e6d6;
+    color:#4b633f;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+#my-work {
+    margin: 20px;
+    padding: 20px;
+    border-radius:0%;
+    height: 900px;
+    background-color: #e7e6d6;
+    color: #4b633f;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+#contact-me {
+    margin: 20px;
+    padding: 20px;
+    border-radius:0%;
+    height: 200px;
+    background-color:#4b633f;
+    color: #e7e6d6;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.phone,
+.email,
+.linkedin {
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 0%;
+    background-color:#fcd1cd;
+    padding: 3px;
+}
+
+
