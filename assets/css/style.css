@@ -41,6 +41,10 @@ header {
     margin-left: 375px;
     padding: 5px;
 }
+.images:hover {
+    opacity: 75%;
+}
+
 .placeholder {
     display: inline-flex;
     justify-content: space-between;
